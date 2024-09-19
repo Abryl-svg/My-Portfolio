@@ -1,0 +1,267 @@
+/* You can add custom CSS and extend Boostrap styles in this file. Remember, Bootstrap is just CSS at the end of the day! */
+
+.circletag{
+
+
+ text-align: center;
+ 
+  
+}
+
+.image{
+  height:180px;
+  width: 180px;
+  border-radius: 100px;
+  border-width: thick;
+  border-image-slice: 50;
+  border: 9px solid rgba(0,0,0,.8);
+  margin-top: 20vh;
+  
+
+}
+
+  
+
+
+.navbar-nav{
+  text-align: center;
+  margin-left: auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+
+
+#hero-section{
+  background-image: 
+    linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.4)),
+url(https://images.unsplash.com/photo-1480506132288-68f7705954bd?q=80&w=1840&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  min-height: 75vh;
+  width: auto;
+  background-size: cover;
+  background-repeat: no-repeat ;
+  background-position: center;
+}
+
+
+
+
+
+
+
+.outline{
+  color: #E7D4B5;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 60px;
+  text-shadow: 1px 1px 2px pink;
+  
+  
+  
+}
+
+.lead{
+  color: #E7D4B5;
+  font-style: italic;
+  padding-top: 15px;
+  padding-bottom: 30px;
+  text-shadow: 1px 1px 2px pink;
+  
+}
+
+/* image in mission */
+
+/* image in mission  */
+
+#Mission .row{
+  background-color:#fafafa;
+  vertical-align: middle;
+  
+  
+}
+
+
+/* image in mission- also helps the image keep fit and not smash if seen on a different screen ;) */
+#Mission img{
+    width: 100%; 
+  height: 60vh; 
+  object-fit:cover;
+  object-position:center;
+  overflow: hidden; 
+  padding-top: 20px;
+  
+}
+/* image in mission */
+
+#Mission{
+  padding-bottom: 30px;
+  background-color: #fafafa;
+}
+
+#Mission h3{
+  padding-top: 35px;
+  padding-bottom: 10px;
+  text-align: center ;
+  font-size: 35px;
+  
+}
+/*text in mission  */
+.indigo{
+  font-family: "Reddit Sans", sans-serif;
+  font-size: 20px;
+  padding-top: 20px;
+  
+  
+  /* text in mission */
+ 
+}
+
+
+
+#Skills{
+  /* note to self: REMEMBER IF YOU HAVE CONTAINER TEXT OR ANYTHING INSIDE WILL ALL APPEAR INSIDE THE SECTION CONTAINER, SO DO NOT I REPEAT DO NOT GIVE IT A HEIGHT, BECUASE IN DIFFERENT POINTS OF VIEWS IT WILL ADJUST ITSELF TRUST. */
+  /* background-color:#2F3645 */
+  /* background-color:#102C57; */
+  background-color:#000000;
+  
+  
+  
+}
+
+#Skills p{
+  color:#fafafa;
+ text-align: center;
+  font-family: "Reddit Sans", sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+  
+}
+
+
+
+
+#Skills img{
+  max-height: 150px;
+  max-width: 150;
+  margin: 10 20px;
+}
+
+#Skills h3{
+  color: #fafafa;
+  padding-top: 40px;
+  padding-bottom: 10px;
+  text-align: center ;
+  font-size: 35px;
+}
+
+#Skills .row{
+  text-align:center;
+  /* background-color:#2F3645; */
+  /* background-color:#102C57; */
+  background-color:#000000;
+  padding-bottom: 70px;
+  padding-top:20px;
+  
+
+}
+  
+#Contact .row{
+  text-align:center;
+   padding-bottom: 50px; 
+  padding-top:40px;
+  font-size:40px;
+  /* margin-bottom:20px; */
+   background-image: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.5)),
+    url("https://images.unsplash.com/photo-1545105500-68b61d54e16c?q=80&w=1776&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  border-style:solid;
+  border-radious: 10px;
+  background-size:cover;
+  background-repeat: no-repeat ;
+  background-position: center;} 
+
+
+.bi:hover {
+    color: #686D76 !important;
+}
+
+#Contact{
+  background-color: #000000;
+  padding-bottom: 75px;
+}
+
+#Contact h3{
+  padding-top: 35px;
+  padding-bottom: 40px;
+  text-align: center ;
+  font-size: 35px;
+  color: #fafafa
+}
+
+
+
+
+#footer-section{
+  height: 60px;
+  text-align: center;
+  background-color: #151515;
+  
+}
+
+#footer-final{
+  color:white;
+  padding-top: 20px;
+}
+
+
+#Inspiration{
+  background-color: #fafafa;
+  padding-bottom: 60px;
+  padding-top: 40px;
+}
+
+#Inspiration h3{
+  padding-top: 5px;
+  margin-top: 20px;
+  padding-bottom: 30px;
+  text-align: center ;
+  font-size: 35px;
+}
+
+.carousel-item img{
+  height:70vh;
+  overflow:hidden;
+  object-fit: cover;
+  object-position: center;
+}
+
+.carousel-item:after{
+  content:"";
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,.5)
+}
+
+.carousel-caption {
+    z-index:1;
+
+} 
+
+
+#hero-section-target{
+  position:relative;
+  top: -100px;
+}
+
+
+#Mission-target,
+#Skills-target,
+#Inspiration-target,
+#Contact-target,
+#footer-section-target{
+  position:relative;
+  top:-50px;
+}
